@@ -1,20 +1,8 @@
 <html>
-<head>
-<?php
-$protocol = $_SERVER['SERVER_PROTOCOL'];
-$ip = $_SERVER['REMOTE_ADDR'];
-$port = $_SERVER['REMOTE_PORT'];
-$agent = $_SERVER['HTTP_USER_AGENT'];
-$ref = $_SERVER['HTTP_REFERER'];
-$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
-$fh = fopen($ip'.txt', 'a');
-fwrite($fh, 'IP Address: '."".$ip ."\n");
-fwrite($fh, 'Hostname: '."".$hostname ."\n");
-fwrite($fh, 'Port Number: '."".$port ."\n");
-fwrite($fh, 'User Agent: '."".$agent ."\n");
-fwrite($fh, 'HTTP Referer: '."".$ref ."\n\n");
-fclose($fh);
-?>
-<meta http-equiv="refresh" content="1; URL=https://youtu.be/iik25wqIuFo" />
-</head>
+  <head>
+    <iframe width="420" height="345" src="http://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="420" height="345" src="http://www.youtube.com/embed/d1YBv2mWll0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="420" height="345" src="http://www.youtube.com/embed/0iCtC-EOzEo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="420" height="345" src="http://www.youtube.com/embed/fC7oUOUEEi4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </head>
 </html>
